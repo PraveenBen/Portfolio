@@ -5,14 +5,16 @@ import {
   SiPostman,
   SiSlack,
   SiVercel,
-  SiMacos,
 } from "react-icons/si";
+import { FaLinux } from "react-icons/fa";
+
+
 
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMacos />
+        <FaLinux />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
